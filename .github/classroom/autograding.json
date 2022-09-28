@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Compile test",
+      "setup": "cmake .; make",
+      "run": "./pa0 compile",
+      "input": "",
+      "output": "Compile test PASS",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 50
+    },
+    {
+      "name": "Basic test",
+      "setup": "cmake .; make",
+      "run": "./pa0 basic",
+      "input": "",
+      "output": "Basic test PASS",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 50
+    }
+  ]
+}
